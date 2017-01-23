@@ -17,7 +17,7 @@ app.get('/', function (req, res) {
 // GET /scores
 app.get('/scores', function(req, res){
     console.log("tuut");
-    res.json({scores});
+    res.json({scores: scores});
 });
 
 // POST /scores
